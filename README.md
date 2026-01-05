@@ -3,7 +3,6 @@
 
 ## 📘 Backend – `README.md`
 
-```markdown
 # Plataforma de Cursos Online - Backend
 
 Este proyecto implementa una API REST en **.NET 8** siguiendo principios básicos de **Clean Architecture**, con separación de capas y aplicación de reglas de negocio para la gestión de cursos y lecciones.
