@@ -1,4 +1,5 @@
-﻿using _1_Application.Interfaces;
+﻿using _1_Application.DTOs;
+using _1_Application.Interfaces;
 using _2_Domain.Entities;
 using _2_Domain.Interfaces;
 
@@ -67,5 +68,19 @@ public class LessonService : ILessonService
 
         await _lessonRepository.UpdateAsync(lesson);
         return true;
+    }
+    
+    public async Task<IEnumerable<LessonListItemDto>> GetByCourseAsync(Guid courseId)
+    {
+        var lessons = await _lessonRepository.GetByCourseIdAsync(courseId);
+
+        return lessons
+            .OrderBy(l => l.Order)
+            .Select(l => new LessonListItemDto
+            {
+                Id = l.Id,
+                Title = l.Title,
+                Order = l.Order
+            });
     }
 }

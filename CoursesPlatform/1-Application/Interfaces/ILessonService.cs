@@ -1,4 +1,5 @@
-﻿using _2_Domain.Entities;
+﻿using _1_Application.DTOs;
+using _2_Domain.Entities;
 
 namespace _1_Application.Interfaces;
 
@@ -7,4 +8,7 @@ public interface ILessonService
     Task<Lesson?> CreateAsync(Guid courseId, string title, int order);
     Task<bool> SoftDeleteAsync(Guid lessonId);
     Task<bool> ReorderAsync(Guid lessonId, int newOrder);
+    Task<IEnumerable<LessonListItemDto>> GetByCourseAsync(Guid courseId);
+    
+
 }

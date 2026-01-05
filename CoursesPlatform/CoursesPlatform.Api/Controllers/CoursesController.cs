@@ -12,10 +12,14 @@ namespace CoursesPlatform.Api.Controllers;
 public class CoursesController  : ControllerBase
 {
     private readonly ICourseService _courseService;
+    private readonly ILessonService _lessonService;
 
-    public CoursesController(ICourseService courseService)
+
+    public CoursesController(ICourseService courseService, ILessonService lessonService)
     {
         _courseService = courseService;
+        _lessonService = lessonService;
+
     }
 
     // POST /api/courses
@@ -81,4 +85,28 @@ public class CoursesController  : ControllerBase
             PageSize = pageSize
         });
     }
+    
+    [HttpGet("{id}/lessons")]
+    public async Task<IActionResult> GetLessons(Guid id)
+    {
+        var lessons = await _lessonService.GetByCourseAsync(id);
+        return Ok(lessons);
+    }
+    
+    [HttpPost("import")]
+    [Authorize]
+    public async Task<IActionResult> ImportFromExcel(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+            return BadRequest("File is required");
+
+        if (!file.FileName.EndsWith(".xlsx"))
+            return BadRequest("Only .xlsx files are allowed");
+
+        using var stream = file.OpenReadStream();
+        var result = await _courseService.ImportFromExcelAsync(stream);
+
+        return Ok(result);
+    }
+
 }

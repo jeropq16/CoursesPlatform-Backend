@@ -3,6 +3,9 @@ using _1_Application.Interfaces;
 using _2_Domain.Entities;
 using _2_Domain.Enums;
 using _2_Domain.Interfaces;
+using ClosedXML.Excel;
+using OfficeOpenXml;
+using LicenseContext = System.ComponentModel.LicenseContext;
 
 namespace _1_Application.Services;
 
@@ -92,4 +95,43 @@ public class CourseService : ICourseService
     {
         return await _courseRepository.SearchAsync(query, status, page, pageSize);
     }
+    
+    public async Task<ImportCoursesResultDto> ImportFromExcelAsync(Stream fileStream)
+    {
+        var result = new ImportCoursesResultDto();
+
+        using var workbook = new XLWorkbook(fileStream);
+        var worksheet = workbook.Worksheets.First();
+
+        var rows = worksheet.RangeUsed().RowsUsed().Skip(1); // Skip header
+
+        foreach (var row in rows)
+        {
+            result.TotalRows++;
+
+            var title = row.Cell(1).GetString().Trim();
+
+            if (string.IsNullOrWhiteSpace(title))
+            {
+                result.Skipped++;
+                continue;
+            }
+
+            var course = new Course
+            {
+                Id = Guid.NewGuid(),
+                Title = title,
+                Status = CourseStatus.Draft,
+                IsDeleted = false,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+
+            await _courseRepository.AddAsync(course);
+            result.Imported++;
+        }
+
+        return result;
+    }
+
 }

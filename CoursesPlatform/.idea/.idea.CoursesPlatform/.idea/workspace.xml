@@ -10,97 +10,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a676ebf2-87a9-42be-b47a-7d3a27a7aaa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/CourseSummaryDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/CreateCourseRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/CreateLessonRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/LessonResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/ReorderLessonRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/Interfaces/ICourseService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/Interfaces/IJwtService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/Interfaces/ILessonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/Services/CourseService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-Application/Services/LessonService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2-Domain/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Infrastructure/Auth/JwtService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-Infrastructure/Seed/UserSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/CoursesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/LessonsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/Domain/CourseServiceTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/Domain/Fakes/FakeCourseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/Domain/Fakes/FakeLessonRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/Domain/LessonServiceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CoursesPlatform/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoursesPlatform/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/ImportCoursesResultDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/LessonListItemDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1-Application/DTOs/RegisterRequestDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CoursesPlatform/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CoursesPlatform/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/1-Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/1-Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Application/Interfaces/ICourseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/Interfaces/ICourseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Application/Interfaces/ILessonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/Interfaces/ILessonService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Application/Services/CourseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/Services/CourseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Application/Services/LessonService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/Services/LessonService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/1-Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/1-Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Application/obj/1-Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/1-Application.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/Debug/net8.0/1-Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/1-Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/2-Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/2-Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/2-Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/2-Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-Domain/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/Interfaces/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/Debug/net8.0/2-Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/2-Domain/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/3-Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/3-Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Infrastructure/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Infrastructure/Repositories/LessonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/Repositories/LessonRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-Infrastructure/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/Repositories/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/3-Infrastructure.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/Debug/net8.0/3-Infrastructure.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/3-Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Controllers/CoursesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/CoursesPlatform.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/CoursesPlatform.Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/CoursesPlatform.Api.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/Debug/net8.0/CoursesPlatform.Api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_CoursesPlatform.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_CoursesPlatform.Tests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/CoursesPlatform.Tests.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/Debug/net8.0/CoursesPlatform.Tests.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CoursesPlatform.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -231,6 +196,31 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="CoursesPlatform.Api/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="coursesplatform.api" />
+          <option name="containerName" value="coursesplatform.api" />
+          <option name="contextFolderPath" value="C:\Users\Jero\Desktop\CoursesPlatform\CoursesPlatform" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="CoursesPlatform.Api/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -241,8 +231,17 @@
       <updated>1767612854549</updated>
       <workItem from="1767612854551" duration="54000" />
       <workItem from="1767612962003" duration="2437000" />
-      <workItem from="1767616361782" duration="5412000" />
+      <workItem from="1767616361782" duration="14854000" />
     </task>
+    <task id="LOCAL-00001" summary="Backend funcional mas no completo">
+      <option name="closed" value="true" />
+      <created>1767624749517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767624749517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +251,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Backend funcional mas no completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend funcional mas no completo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

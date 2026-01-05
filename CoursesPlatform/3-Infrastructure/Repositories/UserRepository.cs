@@ -18,4 +18,16 @@ public class UserRepository : IUserRepository
     {
         return await _context.Set<User>().FirstOrDefaultAsync(u => u.Email == email);
     }
+    
+    public async Task<bool> ExistsByEmailAsync(string email)
+    {
+        return await _context.Users
+            .AnyAsync(u => u.Email == email);
+    }
+
+    public async Task AddAsync(User user)
+    {
+        _context.Users.Add(user);
+        await _context.SaveChangesAsync();
+    }
 }

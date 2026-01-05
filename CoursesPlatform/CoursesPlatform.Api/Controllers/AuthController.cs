@@ -1,5 +1,8 @@
-﻿using _1_Application.Interfaces;
+﻿using _1_Application.DTOs;
+using _1_Application.Interfaces;
+using _2_Domain.Entities;
 using _2_Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoursesPlatform.Api.Controllers;
@@ -31,5 +34,25 @@ public class AuthController : ControllerBase
         var token = _jwtService.GenerateToken(user);
 
         return Ok(new { token });
+    }
+    
+    [HttpPost("register")]
+    [AllowAnonymous]
+    public async Task<IActionResult> Register([FromBody] RegisterRequestDto request)
+    {
+        var exists = await _userRepository.ExistsByEmailAsync(request.Email);
+        if (exists)
+            return BadRequest("Email already registered");
+
+        var user = new User
+        {
+            Id = Guid.NewGuid(),
+            Email = request.Email,
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password)
+        };
+
+        await _userRepository.AddAsync(user);
+
+        return Ok();
     }
 }

@@ -12,4 +12,6 @@ public interface ICourseService
     Task<bool> SoftDeleteAsync(Guid courseId);
     Task<CourseSummaryDto?> GetSummaryAsync(Guid courseId);
     Task<IEnumerable<Course>> SearchAsync(string? query, CourseStatus? status, int page, int pageSize);
+    Task<ImportCoursesResultDto> ImportFromExcelAsync(Stream fileStream);
+
 }

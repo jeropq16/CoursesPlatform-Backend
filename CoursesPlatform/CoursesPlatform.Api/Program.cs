@@ -110,8 +110,6 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
-
 app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
@@ -119,13 +117,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-
-}
-
-app.UseHttpsRedirection();
 
 var summaries = new[]
 {
