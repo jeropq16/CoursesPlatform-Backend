@@ -210,9 +210,3 @@ El frontend estará disponible en:
 
 ---
 
-## 📌 Notas
-- El diseño visual no es prioritario, se evalúa principalmente la funcionalidad.  
-- Se recomienda usar un framework moderno (React/Vue/Angular) para destacar.  
-```
-
----
