@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BbrPnPSHDro=",
+  "dgSpecHash": "JrkyC4YOwHc=",
   "success": true,
-  "projectFilePath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/coders/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
-    "/home/coders/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

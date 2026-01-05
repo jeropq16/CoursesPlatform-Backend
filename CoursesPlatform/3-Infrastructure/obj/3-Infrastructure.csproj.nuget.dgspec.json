@@ -1,25 +1,100 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/Escritorio/CoursesPlatform/3-Infrastructure/3-Infrastructure.csproj": {}
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\3-Infrastructure\\3-Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\1-Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
-        "projectName": "2-Domain",
-        "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/obj/",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\1-Application.csproj",
+        "projectName": "1-Application",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\1-Application.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj",
+        "projectName": "2-Domain",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,49 +129,48 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/coders/Escritorio/CoursesPlatform/3-Infrastructure/3-Infrastructure.csproj": {
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\3-Infrastructure\\3-Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/3-Infrastructure/3-Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\3-Infrastructure\\3-Infrastructure.csproj",
         "projectName": "3-Infrastructure",
-        "projectPath": "/home/coders/Escritorio/CoursesPlatform/3-Infrastructure/3-Infrastructure.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Escritorio/CoursesPlatform/3-Infrastructure/obj/",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\3-Infrastructure\\3-Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\3-Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
-                "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj"
+              "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\1-Application.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\1-Application\\1-Application.csproj"
+              },
+              "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj": {
+                "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj"
               }
             }
           }
@@ -117,6 +191,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -125,9 +203,17 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.15.0, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
             }
           },
           "imports": [
@@ -141,22 +227,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -30,8 +30,13 @@ public class LessonRepository : ILessonRepository
 
     public async Task<bool> ExistsWithOrderAsync(Guid courseId, int order)
     {
-        return await _context.Lessons.AnyAsync(l => l.CourseId == courseId && l.Order == order);
+        return await _context.Lessons
+            .AnyAsync(l =>
+                l.CourseId == courseId &&
+                l.Order == order &&
+                !l.IsDeleted);
     }
+
 
     public async Task AddAsync(Lesson lesson)
     {

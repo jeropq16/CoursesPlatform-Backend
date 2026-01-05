@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {}
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj": {}
   },
   "projects": {
-    "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
+    "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj",
         "projectName": "2-Domain",
-        "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/obj/",
+        "projectPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\2-Domain.csproj",
+        "packagesPath": "C:\\Users\\Jero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jero\\Desktop\\CoursesPlatform\\CoursesPlatform\\2-Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,22 +60,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
