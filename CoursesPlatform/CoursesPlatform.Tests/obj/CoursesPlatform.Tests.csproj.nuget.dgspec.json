@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/coders/Escritorio/CoursesPlatform/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/coders/Escritorio/CoursesPlatform/1-Application/1-Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/1-Application/1-Application.csproj",
+        "projectName": "1-Application",
+        "projectPath": "/home/coders/Escritorio/CoursesPlatform/1-Application/1-Application.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Escritorio/CoursesPlatform/1-Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coders/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
+                "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
+        "projectName": "2-Domain",
+        "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coders/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/coders/Escritorio/CoursesPlatform/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/coders/Escritorio/CoursesPlatform/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj",
+        "projectName": "CoursesPlatform.Tests",
+        "projectPath": "/home/coders/Escritorio/CoursesPlatform/CoursesPlatform.Tests/CoursesPlatform.Tests.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Escritorio/CoursesPlatform/CoursesPlatform.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/coders/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/coders/Escritorio/CoursesPlatform/1-Application/1-Application.csproj": {
+                "projectPath": "/home/coders/Escritorio/CoursesPlatform/1-Application/1-Application.csproj"
+              },
+              "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj": {
+                "projectPath": "/home/coders/Escritorio/CoursesPlatform/2-Domain/2-Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
